@@ -5,50 +5,64 @@ Author = "";
 # Modified Date
 Date = 2017-11-17;
 
-#row 1
+
+#lock keys
   S8 : U"F13";
- S24 : U"F14";
- S32 : U"F15";
- S40 : U"F16";
- S48 : U"F17";
- S56 : U"F18";
- S64 : U"F19";
- S72 : U"F20";
- S80 : U"F21";
+  S7 : U"F13";
+  S6 : U"CapsLock";
+
+
+
+#pad0
+ S24 : U"F14"; #TTY goto
+ S32 : U"F15"; #D7
+ S40 : U"F16"; #D8
+ S48 : U"F17"; #D9
+
+ S23 : U"F13"; #Desktop goto
+ S31 : U"F14"; #D4
+ S39 : U"F15"; #D5
+ S47 : U"F16"; #D6
+
+ S22 : U"F1"; #D0
+ S30 : U"F2"; #D1
+ S38 : U"F3"; #D2
+ S46 : U"F4"; #D3
+
+
+#pad1
+ S56 : U"F9";
+ S64 : U"F10";
+ S72 : U"F11";
+ S80 : U"F12";
+
+ S55 : U"F5";
+ S63 : U"F6";
+ S71 : U"F7";
+ S79 : U"F8";
+
+ S54 : U"F1";
+ S62 : U"F2";
+ S70 : U"F3";
+ S78 : U"F4";
+
+
+#pad2
  S88 : U"F22";
  S96 : U"F23";
 S104 : U"F24";
 S112 : U"F13";
 
-#row 2
-  S7 : U"F13";
- S23 : U"F13";
- S31 : U"F14";
- S39 : U"F15";
- S47 : U"F16";
- S55 : U"F17";
- S63 : U"F18";
- S71 : U"F19";
- S79 : U"F20";
  S87 : U"F21";
  S95 : U"F22";
 S103 : U"F23";
 S111 : U"F24";
 
-#row 3
-  S6 : U"CapsLock";
- S22 : U"F1";
- S30 : U"F2";
- S38 : U"F3";
- S46 : U"F4";
- S54 : U"F5";
- S62 : U"F6";
- S70 : U"F7";
- S78 : U"F8";
  S86 : U"F9";
  S94 : U"F10";
 S102 : U"F11";
 S110 : U"F12";
+
 
 #row 4
   S5 : U"`";
@@ -122,6 +136,11 @@ S106 : U"RShift";
  S81 : U"Right Alt";
 S105 : U"Menu";
 
+U"Function1" + U"J" : U"Down";
+U"Function1" + U"H" : U"Left";
+U"Function1" + U"K" : U"Up";
+U"Function1" + U"L" : U"Right";
+U"Function1" + U"Backspace" : U"Delete";
 
 
 ### Physical Positions ###
