@@ -15,19 +15,19 @@ Date = 2017-11-17;
 
 #pad0
  S24 : U"F14"; #TTY goto
- S32 : U"F15"; #D7
- S40 : U"F16"; #D8
- S48 : U"F17"; #D9
+ S32 : U"RGui" + U"7"; #D7
+ S40 : U"RGui" + U"8"; #D8
+ S48 : U"RGui" + U"9"; #D9
 
- S23 : U"F13"; #Desktop goto
- S31 : U"F14"; #D4
- S39 : U"F15"; #D5
- S47 : U"F16"; #D6
+ S23 : None; #Desktop goto
+ S31 : U"RGui" + U"4"; #D4
+ S39 : U"RGui" + U"5"; #D5
+ S47 : U"RGui" + U"6"; #D6
 
- S22 : U"F1"; #D0
- S30 : U"F2"; #D1
- S38 : U"F3"; #D2
- S46 : U"F4"; #D3
+ S22 : U"RGui" + U"0"; #D0
+ S30 : U"RGui" + U"1"; #D1
+ S38 : U"RGui" + U"2"; #D2
+ S46 : U"RGui" + U"3"; #D3
 
 
 #pad1
@@ -127,6 +127,7 @@ S106 : U"RShift";
 
 #row 8
   S1 : U"Function1";
+       U"Function1" : layerShift(1);
   S9 : U"LAlt";
  S17 : U"LGui";
  S25 : U"LCtrl";
@@ -136,11 +137,11 @@ S106 : U"RShift";
  S81 : U"Right Alt";
 S105 : U"Menu";
 
-U"Function1" + U"J" : U"Down";
-U"Function1" + U"H" : U"Left";
-U"Function1" + U"K" : U"Up";
-U"Function1" + U"L" : U"Right";
-U"Function1" + U"Backspace" : U"Delete";
+#U"Function1" + U"J" : U"Down";
+#U"Function1" + U"H" : U"Left";
+#U"Function1" + U"K" : U"Up";
+#U"Function1" + U"L" : U"Right";
+#U"Function1" + U"Backspace" : U"Delete";
 
 
 ### Physical Positions ###

@@ -51,7 +51,7 @@ DefaultMap="stdFuncMap"
 # e.g.  PartialMaps[1]="layer1 layer1mod"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
-#PartialMaps[1]="ic60/hhkbpro2"
+PartialMaps[1]="layer2"
 
 
 

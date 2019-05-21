@@ -1,0 +1,12 @@
+Name = "tallkb";
+Version = 0.1;
+Author = "";
+
+ S51 : U"Left";
+ S59 : U"Down";
+ S67 : U"Up";
+ S75 : U"Right";
+
+S109 : U"Delete";
+
+S107 : U"Up", U"Enter";
