@@ -52,6 +52,8 @@ DefaultMap="stdFuncMap"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
 PartialMaps[1]="layer2"
+PartialMaps[2]="layer3" #Xorg desktops
+PartialMaps[3]="layer4" #Numpad
 
 
 

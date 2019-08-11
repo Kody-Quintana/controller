@@ -7,19 +7,22 @@ Date = 2017-11-17;
 
 
 #lock keys
-  S8 : U"F13";
-  S7 : U"F13";
-  S6 : U"CapsLock";
+  S8 : U"Capslock";
+  S7 : U"Function3";
+       #U"Function3" : layerLock(4)
+  S6 : U"Function4";
+       U"Function4" : layerLock(3)
 
 
 
 #pad0
- S24 : U"F14"; #TTY goto
+ S24 : None; #TTY goto
  S32 : U"RGui" + U"7"; #D7
  S40 : U"RGui" + U"8"; #D8
  S48 : U"RGui" + U"9"; #D9
 
- S23 : None; #Desktop goto
+ S23 : U"Function2"; #Desktop goto
+       U"Function2" : layerLatch(2);
  S31 : U"RGui" + U"4"; #D4
  S39 : U"RGui" + U"5"; #D5
  S47 : U"RGui" + U"6"; #D6
@@ -48,24 +51,24 @@ Date = 2017-11-17;
 
 
 #pad2
- S88 : U"F22";
- S96 : U"F23";
-S104 : U"F24";
-S112 : U"F13";
+ S88 : U"LGui" + U"F21";
+ S96 : U"Mute";
+S104 : U"Volume Down";
+S112 : U"Volume Up";
 
- S87 : U"F21";
- S95 : U"F22";
-S103 : U"F23";
-S111 : U"F24";
+ S87 : None;
+ S95 : None;
+S103 : U"Up";
+S111 : None;
 
- S86 : U"F9";
- S94 : U"F10";
-S102 : U"F11";
-S110 : U"F12";
+ S86 : None; #U"LGui" + U"F21";
+ S94 : U"Left"; #U"Mute";
+S102 : U"Down"; #U"Volume Down";
+S110 : U"Right"; #U"Volume Up";
 
 
 #row 4
-  S5 : U"`";
+  S5 : U"Backtick";
  S13 : U"1";
  S21 : U"2";
  S29 : U"3";
@@ -135,7 +138,7 @@ S106 : U"RShift";
  S65 : U"RCtrl";
  S73 : U"RGui";
  S81 : U"Right Alt";
-S105 : U"Menu";
+S105 : U"LCtrl" + U"RCtrl";
 
 #U"Function1" + U"J" : U"Down";
 #U"Function1" + U"H" : U"Left";
