@@ -1,0 +1,20 @@
+Name = "tallkb";
+Version = 0.1;
+Author = "";
+
+#pad0
+ #S24 : None; #TTY goto
+ S32 : U"LShift" + U"RGui" + U"7"; #D7
+ S40 : U"LShift" + U"RGui" + U"8"; #D8
+ S48 : U"LShift" + U"RGui" + U"9"; #D9
+
+# S23 : U"Function2"; #Desktop goto
+#       U"Function2" : layerLShift(2);
+ S31 : U"LShift" + U"RGui" + U"4"; #D4
+ S39 : U"LShift" + U"RGui" + U"5"; #D5
+ S47 : U"LShift" + U"RGui" + U"6"; #D6
+
+ S22 : U"LShift" + U"RGui" + U"0"; #D0
+ S30 : U"LShift" + U"RGui" + U"1"; #D1
+ S38 : U"LShift" + U"RGui" + U"2"; #D2
+ S46 : U"LShift" + U"RGui" + U"3"; #D3
